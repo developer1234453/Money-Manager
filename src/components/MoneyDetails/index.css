@@ -1,0 +1,40 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 32px;
+  margin-top: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .money-details-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+.balance-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ecfccb;
+  width: 100%;
+  border: 1px solid #84cc16;
+  border-radius: 16px;
+  margin-bottom: 16px;
+}
+.detail-img {
+  width: 66px;
+  height: 64px;
+  margin: 24px;
+}
+.detaol-text {
+  color: #475569;
+  font-size: 12px;
+  font-family: 'roboto';
+  line-height: 1.7;
+  margin: 0px;
+  margin-bottom: 8px;
+}
